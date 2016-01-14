@@ -1,0 +1,71 @@
+######################
+# Project Specific
+######################
+/angular_api_client/dist
+
+######################
+# Node
+######################
+/angular_api_client/node/**
+/angular_api_client/node_modules/**
+
+######################
+# SASS
+######################
+/angular_api_client/.sass-cache/**
+
+######################
+# Eclipse
+######################
+/bakendSecure/*.pydevproject
+/bakendSecure/.project
+/bakendSecure/.metadata
+/bakendSecure/bin/**
+/bakendSecure/tmp/**
+/bakendSecure/tmp/**/*
+/bakendSecure/*.bak
+/bakendSecure/*.swp
+/bakendSecure/*~.nib
+/bakendSecure/local.properties
+/bakendSecure/.classpath
+/bakendSecure/.settings/**
+/bakendSecure/.loadpath
+/bakendSecure/src/main/resources/rebel.xml
+
+# External tool builders
+.gitignore~
+
+# Locally stored "Eclipse launch configurations"
+/bakendSecure/*.launch
+
+
+######################
+# Intellij - webstorm
+######################
+/angular_api_client/.idea/**
+/angular_api_client/*.tmp
+/angular_api_client/*.iml
+/angular_api_client/*.iws
+/angular_api_client/*.ipr
+/angular_api_client/*.ids
+/angular_api_client/*.orig
+
+######################
+# Maven
+######################
+/bakendSecure/log/**
+/bakendSecure/target/**
+
+######################
+# Others
+######################
+/bakendSecure/*.class
+/bakendSecure/*.*~
+/bakendSecure/*~
+/bakendSecure/.merge_file*
+
+
+######################
+# Maven Wrapper
+######################
+/bakendSecure/!.mvn/wrapper/maven-wrapper.jar

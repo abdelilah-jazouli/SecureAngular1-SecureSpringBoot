@@ -1,0 +1,17 @@
+<div>
+   <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+         <h>Admin page</h>
+
+         <div class="alert alert-danger" ng-show="!vm.success" >
+            <strong>Failed to load admin page</strong> Please check !
+         </div>
+          <div class="alert alert-success" ng-show="vm.success" >
+              {{vm.message}}
+          </div>
+      </div>
+   </div>
+</div>
+
+
+
