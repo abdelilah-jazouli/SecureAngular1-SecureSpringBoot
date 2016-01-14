@@ -13,6 +13,7 @@ bakendSecure : Spring boot backend
 2. cd bakendSecure
 3. mvn install
 4. mvn spring-boot:run  ---> Tomcat started on port(s): 8081
+5. You can also run with : java -jar target/bakendSecure-0.0.1-SNAPSHOT.jar
 
 angular_api_client : Angular 1 frontend 
 ---
